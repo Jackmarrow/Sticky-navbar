@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+    color:red;
+}
+
+.hero-image{
+    background-image:url('image/landscape.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+    height:100vh;
+}
+
+.hero-image h1{
+    color:white;
+    text-shadow:0px 6px 15px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:4rem;
+    letter-spacing:3px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.nav-container {
+    font-family:cursive,sans-serif;
+    font-size:1.5rem;
+    padding:.8em .5em .5em .5em;
+    width:100%;
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+    box-shadow:0px 4px 10px rgba(0, 0, 0, .5);
+    transition:500ms;
+    z-index:1;
+}
+
+.links{
+  display:flex;
+  list-style-type:none;
+  
+}
+
+.links li a{
+    color:black;
+    margin-left:1em;
+} 
+
+.links li a:hover{
+    color:red;
+} 
+
+.main-content p {
+    font-size:1.2rem;
+    font-family:sans-serif;
+    margin:3.1em 5%;
+}
+
+.active{
+    background-color:black;
+}
+
+.active .links li a{
+    color:white;  
+} 
